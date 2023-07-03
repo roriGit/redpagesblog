@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/asiwaxiz/public_html/blog_redpages_solutions
+    - /bin/cp -R images $DEPLOYPATH
